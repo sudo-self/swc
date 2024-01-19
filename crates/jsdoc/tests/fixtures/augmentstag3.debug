@@ -1,0 +1,313 @@
+[
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                74,
+            ),
+            hi: BytePos(
+                74,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    74,
+                ),
+                hi: BytePos(
+                    74,
+                ),
+                ctxt: #0,
+            },
+            value: "",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        74,
+                    ),
+                    hi: BytePos(
+                        79,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            74,
+                        ),
+                        hi: BytePos(
+                            79,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "class",
+                },
+                tag: Class(
+                    ClassTag {
+                        span: Span {
+                            lo: BytePos(
+                                74,
+                            ),
+                            hi: BytePos(
+                                79,
+                            ),
+                            ctxt: #0,
+                        },
+                        ty: None,
+                        name: None,
+                    },
+                ),
+            },
+        ],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                107,
+            ),
+            hi: BytePos(
+                107,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    107,
+                ),
+                hi: BytePos(
+                    116,
+                ),
+                ctxt: #0,
+            },
+            value: "A method.",
+        },
+        tags: [],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                165,
+            ),
+            hi: BytePos(
+                165,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    165,
+                ),
+                hi: BytePos(
+                    165,
+                ),
+                ctxt: #0,
+            },
+            value: "",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        165,
+                    ),
+                    hi: BytePos(
+                        170,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            165,
+                        ),
+                        hi: BytePos(
+                            170,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "class",
+                },
+                tag: Class(
+                    ClassTag {
+                        span: Span {
+                            lo: BytePos(
+                                165,
+                            ),
+                            hi: BytePos(
+                                170,
+                            ),
+                            ctxt: #0,
+                        },
+                        ty: None,
+                        name: None,
+                    },
+                ),
+            },
+        ],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                198,
+            ),
+            hi: BytePos(
+                198,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    198,
+                ),
+                hi: BytePos(
+                    213,
+                ),
+                ctxt: #0,
+            },
+            value: "Another method.",
+        },
+        tags: [],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                261,
+            ),
+            hi: BytePos(
+                261,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    261,
+                ),
+                hi: BytePos(
+                    261,
+                ),
+                ctxt: #0,
+            },
+            value: "",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        261,
+                    ),
+                    hi: BytePos(
+                        266,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            261,
+                        ),
+                        hi: BytePos(
+                            266,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "class",
+                },
+                tag: Class(
+                    ClassTag {
+                        span: Span {
+                            lo: BytePos(
+                                261,
+                            ),
+                            hi: BytePos(
+                                266,
+                            ),
+                            ctxt: #0,
+                        },
+                        ty: Some(
+                            Text {
+                                span: Span {
+                                    lo: BytePos(
+                                        261,
+                                    ),
+                                    hi: BytePos(
+                                        276,
+                                    ),
+                                    ctxt: #0,
+                                },
+                                value: "* @augments Foo",
+                            },
+                        ),
+                        name: None,
+                    },
+                ),
+            },
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        261,
+                    ),
+                    hi: BytePos(
+                        269,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            261,
+                        ),
+                        hi: BytePos(
+                            269,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "augments",
+                },
+                tag: Augments(
+                    AugmentsTag {
+                        span: Span {
+                            lo: BytePos(
+                                261,
+                            ),
+                            hi: BytePos(
+                                269,
+                            ),
+                            ctxt: #0,
+                        },
+                        class: NamePath {
+                            span: Span {
+                                lo: BytePos(
+                                    261,
+                                ),
+                                hi: BytePos(
+                                    261,
+                                ),
+                                ctxt: #0,
+                            },
+                            components: [
+                                Text {
+                                    span: Span {
+                                        lo: BytePos(
+                                            261,
+                                        ),
+                                        hi: BytePos(
+                                            264,
+                                        ),
+                                        ctxt: #0,
+                                    },
+                                    value: "Bar",
+                                },
+                            ],
+                        },
+                    },
+                ),
+            },
+        ],
+    },
+]

@@ -1,0 +1,442 @@
+[
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                1,
+            ),
+            hi: BytePos(
+                1,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    1,
+                ),
+                hi: BytePos(
+                    31,
+                ),
+                ctxt: #0,
+            },
+            value: "The built in string object.\n *",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        1,
+                    ),
+                    hi: BytePos(
+                        9,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            1,
+                        ),
+                        hi: BytePos(
+                            9,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "external",
+                },
+                tag: External(
+                    ExternalTag {
+                        span: Span {
+                            lo: BytePos(
+                                1,
+                            ),
+                            hi: BytePos(
+                                9,
+                            ),
+                            ctxt: #0,
+                        },
+                        name: Text {
+                            span: Span {
+                                lo: BytePos(
+                                    1,
+                                ),
+                                hi: BytePos(
+                                    7,
+                                ),
+                                ctxt: #0,
+                            },
+                            value: "String",
+                        },
+                    },
+                ),
+            },
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        1,
+                    ),
+                    hi: BytePos(
+                        4,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            1,
+                        ),
+                        hi: BytePos(
+                            4,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "see",
+                },
+                tag: See(
+                    SeeTag {
+                        span: Span {
+                            lo: BytePos(
+                                1,
+                            ),
+                            hi: BytePos(
+                                4,
+                            ),
+                            ctxt: #0,
+                        },
+                        text: Text {
+                            span: Span {
+                                lo: BytePos(
+                                    1,
+                                ),
+                                hi: BytePos(
+                                    91,
+                                ),
+                                ctxt: #0,
+                            },
+                            value: "{@link https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String String}",
+                        },
+                    },
+                ),
+            },
+        ],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                160,
+            ),
+            hi: BytePos(
+                160,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    160,
+                ),
+                hi: BytePos(
+                    204,
+                ),
+                ctxt: #0,
+            },
+            value: "Adds a new method to the built-in string.\n *",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        160,
+                    ),
+                    hi: BytePos(
+                        168,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            160,
+                        ),
+                        hi: BytePos(
+                            168,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "function",
+                },
+                tag: Function(
+                    FunctionTag {
+                        span: Span {
+                            lo: BytePos(
+                                160,
+                            ),
+                            hi: BytePos(
+                                168,
+                            ),
+                            ctxt: #0,
+                        },
+                        name: Some(
+                            Text {
+                                span: Span {
+                                    lo: BytePos(
+                                        160,
+                                    ),
+                                    hi: BytePos(
+                                        181,
+                                    ),
+                                    ctxt: #0,
+                                },
+                                value: "external:String#rot13",
+                            },
+                        ),
+                    },
+                ),
+            },
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        160,
+                    ),
+                    hi: BytePos(
+                        167,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            160,
+                        ),
+                        hi: BytePos(
+                            167,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "example",
+                },
+                tag: Example(
+                    ExampleTag {
+                        span: Span {
+                            lo: BytePos(
+                                160,
+                            ),
+                            hi: BytePos(
+                                167,
+                            ),
+                            ctxt: #0,
+                        },
+                        text: Text {
+                            span: Span {
+                                lo: BytePos(
+                                    160,
+                                ),
+                                hi: BytePos(
+                                    256,
+                                ),
+                                ctxt: #0,
+                            },
+                            value: "* var greeting = new String('hello world');\n * console.log( greeting.rot13() ); // uryyb jbeyq\n ",
+                        },
+                    },
+                ),
+            },
+        ],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                357,
+            ),
+            hi: BytePos(
+                357,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    357,
+                ),
+                hi: BytePos(
+                    388,
+                ),
+                ctxt: #0,
+            },
+            value: "The jQuery plugin namespace.\n *",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        357,
+                    ),
+                    hi: BytePos(
+                        365,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            357,
+                        ),
+                        hi: BytePos(
+                            365,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "external",
+                },
+                tag: External(
+                    ExternalTag {
+                        span: Span {
+                            lo: BytePos(
+                                357,
+                            ),
+                            hi: BytePos(
+                                365,
+                            ),
+                            ctxt: #0,
+                        },
+                        name: Text {
+                            span: Span {
+                                lo: BytePos(
+                                    357,
+                                ),
+                                hi: BytePos(
+                                    368,
+                                ),
+                                ctxt: #0,
+                            },
+                            value: "\"jQuery.fn\"",
+                        },
+                    },
+                ),
+            },
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        357,
+                    ),
+                    hi: BytePos(
+                        360,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            357,
+                        ),
+                        hi: BytePos(
+                            360,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "see",
+                },
+                tag: See(
+                    SeeTag {
+                        span: Span {
+                            lo: BytePos(
+                                357,
+                            ),
+                            hi: BytePos(
+                                360,
+                            ),
+                            ctxt: #0,
+                        },
+                        text: Text {
+                            span: Span {
+                                lo: BytePos(
+                                    357,
+                                ),
+                                hi: BytePos(
+                                    429,
+                                ),
+                                ctxt: #0,
+                            },
+                            value: "{@link http://docs.jquery.com/Plugins/Authoring The jQuery Plugin Guide}",
+                        },
+                    },
+                ),
+            },
+        ],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                504,
+            ),
+            hi: BytePos(
+                504,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    504,
+                ),
+                hi: BytePos(
+                    563,
+                ),
+                ctxt: #0,
+            },
+            value: "A jQuery plugin to make stars fly around your home page.\n *",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        504,
+                    ),
+                    hi: BytePos(
+                        512,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            504,
+                        ),
+                        hi: BytePos(
+                            512,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "function",
+                },
+                tag: Function(
+                    FunctionTag {
+                        span: Span {
+                            lo: BytePos(
+                                504,
+                            ),
+                            hi: BytePos(
+                                512,
+                            ),
+                            ctxt: #0,
+                        },
+                        name: Some(
+                            Text {
+                                span: Span {
+                                    lo: BytePos(
+                                        504,
+                                    ),
+                                    hi: BytePos(
+                                        534,
+                                    ),
+                                    ctxt: #0,
+                                },
+                                value: "external:\"jQuery.fn\".starfairy",
+                            },
+                        ),
+                    },
+                ),
+            },
+        ],
+    },
+]

@@ -1,0 +1,99 @@
+[
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                74,
+            ),
+            hi: BytePos(
+                74,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    74,
+                ),
+                hi: BytePos(
+                    99,
+                ),
+                ctxt: #0,
+            },
+            value: "My example module.\n     *",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        74,
+                    ),
+                    hi: BytePos(
+                        81,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            74,
+                        ),
+                        hi: BytePos(
+                            81,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "exports",
+                },
+                tag: Exports(
+                    ExportsTag {
+                        span: Span {
+                            lo: BytePos(
+                                74,
+                            ),
+                            hi: BytePos(
+                                81,
+                            ),
+                            ctxt: #0,
+                        },
+                        module_name: Text {
+                            span: Span {
+                                lo: BytePos(
+                                    74,
+                                ),
+                                hi: BytePos(
+                                    87,
+                                ),
+                                ctxt: #0,
+                            },
+                            value: "exampleModule",
+                        },
+                    },
+                ),
+            },
+        ],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                171,
+            ),
+            hi: BytePos(
+                171,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    171,
+                ),
+                hi: BytePos(
+                    189,
+                ),
+                ctxt: #0,
+            },
+            value: "My example method.",
+        },
+        tags: [],
+    },
+]

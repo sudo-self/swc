@@ -1,0 +1,226 @@
+[
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                1,
+            ),
+            hi: BytePos(
+                1,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    1,
+                ),
+                hi: BytePos(
+                    1,
+                ),
+                ctxt: #0,
+            },
+            value: "",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        1,
+                    ),
+                    hi: BytePos(
+                        12,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            1,
+                        ),
+                        hi: BytePos(
+                            12,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "constructor",
+                },
+                tag: Class(
+                    ClassTag {
+                        span: Span {
+                            lo: BytePos(
+                                1,
+                            ),
+                            hi: BytePos(
+                                12,
+                            ),
+                            ctxt: #0,
+                        },
+                        ty: Some(
+                            Text {
+                                span: Span {
+                                    lo: BytePos(
+                                        1,
+                                    ),
+                                    hi: BytePos(
+                                        18,
+                                    ),
+                                    ctxt: #0,
+                                },
+                                value: "@memberof mathlib",
+                            },
+                        ),
+                        name: None,
+                    },
+                ),
+            },
+        ],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                0,
+            ),
+            hi: BytePos(
+                67,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    67,
+                ),
+                hi: BytePos(
+                    67,
+                ),
+                ctxt: #0,
+            },
+            value: "",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        67,
+                    ),
+                    hi: BytePos(
+                        73,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            67,
+                        ),
+                        hi: BytePos(
+                            73,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "member",
+                },
+                tag: Member(
+                    MemberTag {
+                        span: Span {
+                            lo: BytePos(
+                                67,
+                            ),
+                            hi: BytePos(
+                                73,
+                            ),
+                            ctxt: #0,
+                        },
+                        ty: Text {
+                            span: Span {
+                                lo: BytePos(
+                                    67,
+                                ),
+                                hi: BytePos(
+                                    67,
+                                ),
+                                ctxt: #0,
+                            },
+                            value: "",
+                        },
+                        name: Text {
+                            span: Span {
+                                lo: BytePos(
+                                    0,
+                                ),
+                                hi: BytePos(
+                                    0,
+                                ),
+                                ctxt: #0,
+                            },
+                            value: "",
+                        },
+                    },
+                ),
+            },
+        ],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                0,
+            ),
+            hi: BytePos(
+                106,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    106,
+                ),
+                hi: BytePos(
+                    106,
+                ),
+                ctxt: #0,
+            },
+            value: "",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        106,
+                    ),
+                    hi: BytePos(
+                        115,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            106,
+                        ),
+                        hi: BytePos(
+                            115,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "namespace",
+                },
+                tag: Namespace(
+                    NamespaceTag {
+                        span: Span {
+                            lo: BytePos(
+                                106,
+                            ),
+                            hi: BytePos(
+                                115,
+                            ),
+                            ctxt: #0,
+                        },
+                        ty: None,
+                        name: None,
+                    },
+                ),
+            },
+        ],
+    },
+]

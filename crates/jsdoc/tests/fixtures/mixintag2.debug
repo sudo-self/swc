@@ -1,0 +1,626 @@
+[
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                1,
+            ),
+            hi: BytePos(
+                1,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    1,
+                ),
+                hi: BytePos(
+                    1,
+                ),
+                ctxt: #0,
+            },
+            value: "",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        1,
+                    ),
+                    hi: BytePos(
+                        7,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            1,
+                        ),
+                        hi: BytePos(
+                            7,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "module",
+                },
+                tag: Module(
+                    ModuleTag {
+                        span: Span {
+                            lo: BytePos(
+                                1,
+                            ),
+                            hi: BytePos(
+                                7,
+                            ),
+                            ctxt: #0,
+                        },
+                        name: Text {
+                            span: Span {
+                                lo: BytePos(
+                                    0,
+                                ),
+                                hi: BytePos(
+                                    0,
+                                ),
+                                ctxt: #0,
+                            },
+                            value: "",
+                        },
+                        ty: Text {
+                            span: Span {
+                                lo: BytePos(
+                                    1,
+                                ),
+                                hi: BytePos(
+                                    5,
+                                ),
+                                ctxt: #0,
+                            },
+                            value: "mixy",
+                        },
+                    },
+                ),
+            },
+        ],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                36,
+            ),
+            hi: BytePos(
+                36,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    36,
+                ),
+                hi: BytePos(
+                    48,
+                ),
+                ctxt: #0,
+            },
+            value: "Object A.\n *",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        36,
+                    ),
+                    hi: BytePos(
+                        41,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            36,
+                        ),
+                        hi: BytePos(
+                            41,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "mixin",
+                },
+                tag: Mixin(
+                    MixinTag {
+                        span: Span {
+                            lo: BytePos(
+                                36,
+                            ),
+                            hi: BytePos(
+                                41,
+                            ),
+                            ctxt: #0,
+                        },
+                        name: Text {
+                            span: Span {
+                                lo: BytePos(
+                                    0,
+                                ),
+                                hi: BytePos(
+                                    0,
+                                ),
+                                ctxt: #0,
+                            },
+                            value: "",
+                        },
+                    },
+                ),
+            },
+        ],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                91,
+            ),
+            hi: BytePos(
+                91,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    91,
+                ),
+                hi: BytePos(
+                    103,
+                ),
+                ctxt: #0,
+            },
+            value: "Some method.",
+        },
+        tags: [],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                141,
+            ),
+            hi: BytePos(
+                141,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    141,
+                ),
+                hi: BytePos(
+                    169,
+                ),
+                ctxt: #0,
+            },
+            value: "Object B. Mixes Object A.\n *",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        141,
+                    ),
+                    hi: BytePos(
+                        146,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            141,
+                        ),
+                        hi: BytePos(
+                            146,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "mixin",
+                },
+                tag: Mixin(
+                    MixinTag {
+                        span: Span {
+                            lo: BytePos(
+                                141,
+                            ),
+                            hi: BytePos(
+                                146,
+                            ),
+                            ctxt: #0,
+                        },
+                        name: Text {
+                            span: Span {
+                                lo: BytePos(
+                                    141,
+                                ),
+                                hi: BytePos(
+                                    169,
+                                ),
+                                ctxt: #0,
+                            },
+                            value: "* @mixes module:mixy.ObjectA",
+                        },
+                    },
+                ),
+            },
+        ],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                241,
+            ),
+            hi: BytePos(
+                241,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    241,
+                ),
+                hi: BytePos(
+                    293,
+                ),
+                ctxt: #0,
+            },
+            value: "Object C. Mixes Object B and adds its own method.\n *",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        241,
+                    ),
+                    hi: BytePos(
+                        246,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            241,
+                        ),
+                        hi: BytePos(
+                            246,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "mixin",
+                },
+                tag: Mixin(
+                    MixinTag {
+                        span: Span {
+                            lo: BytePos(
+                                241,
+                            ),
+                            hi: BytePos(
+                                246,
+                            ),
+                            ctxt: #0,
+                        },
+                        name: Text {
+                            span: Span {
+                                lo: BytePos(
+                                    241,
+                                ),
+                                hi: BytePos(
+                                    269,
+                                ),
+                                ctxt: #0,
+                            },
+                            value: "* @mixes module:mixy.ObjectB",
+                        },
+                    },
+                ),
+            },
+        ],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                366,
+            ),
+            hi: BytePos(
+                366,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    366,
+                ),
+                hi: BytePos(
+                    451,
+                ),
+                ctxt: #0,
+            },
+            value: "Super-sweet method that's named in the comment, making this a virtual comment.\n     *",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        366,
+                    ),
+                    hi: BytePos(
+                        374,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            366,
+                        ),
+                        hi: BytePos(
+                            374,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "function",
+                },
+                tag: Function(
+                    FunctionTag {
+                        span: Span {
+                            lo: BytePos(
+                                366,
+                            ),
+                            hi: BytePos(
+                                374,
+                            ),
+                            ctxt: #0,
+                        },
+                        name: Some(
+                            Text {
+                                span: Span {
+                                    lo: BytePos(
+                                        366,
+                                    ),
+                                    hi: BytePos(
+                                        396,
+                                    ),
+                                    ctxt: #0,
+                                },
+                                value: "module:mixy.ObjectC.superSweet",
+                            },
+                        ),
+                    },
+                ),
+            },
+        ],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                546,
+            ),
+            hi: BytePos(
+                546,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    546,
+                ),
+                hi: BytePos(
+                    585,
+                ),
+                ctxt: #0,
+            },
+            value: "Class that mixes Object A, so it gets {",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        546,
+                    ),
+                    hi: BytePos(
+                        550,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            546,
+                        ),
+                        hi: BytePos(
+                            550,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "link",
+                },
+                tag: Unknown(
+                    UnknownTag {
+                        span: Span {
+                            lo: BytePos(
+                                546,
+                            ),
+                            hi: BytePos(
+                                550,
+                            ),
+                            ctxt: #0,
+                        },
+                        extras: Text {
+                            span: Span {
+                                lo: BytePos(
+                                    546,
+                                ),
+                                hi: BytePos(
+                                    573,
+                                ),
+                                ctxt: #0,
+                            },
+                            value: "module:mixy.ClassA#method}.",
+                        },
+                    },
+                ),
+            },
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        546,
+                    ),
+                    hi: BytePos(
+                        551,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            546,
+                        ),
+                        hi: BytePos(
+                            551,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "class",
+                },
+                tag: Class(
+                    ClassTag {
+                        span: Span {
+                            lo: BytePos(
+                                546,
+                            ),
+                            hi: BytePos(
+                                551,
+                            ),
+                            ctxt: #0,
+                        },
+                        ty: Some(
+                            Text {
+                                span: Span {
+                                    lo: BytePos(
+                                        546,
+                                    ),
+                                    hi: BytePos(
+                                        574,
+                                    ),
+                                    ctxt: #0,
+                                },
+                                value: "* @mixes module:mixy.ObjectA",
+                            },
+                        ),
+                        name: None,
+                    },
+                ),
+            },
+        ],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                703,
+            ),
+            hi: BytePos(
+                703,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    703,
+                ),
+                hi: BytePos(
+                    714,
+                ),
+                ctxt: #0,
+            },
+            value: "Do a thing.",
+        },
+        tags: [],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                777,
+            ),
+            hi: BytePos(
+                857,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    777,
+                ),
+                hi: BytePos(
+                    816,
+                ),
+                ctxt: #0,
+            },
+            value: "Class that mixes Object C, so it gets {",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        777,
+                    ),
+                    hi: BytePos(
+                        781,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            777,
+                        ),
+                        hi: BytePos(
+                            781,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "link",
+                },
+                tag: Unknown(
+                    UnknownTag {
+                        span: Span {
+                            lo: BytePos(
+                                777,
+                            ),
+                            hi: BytePos(
+                                781,
+                            ),
+                            ctxt: #0,
+                        },
+                        extras: Text {
+                            span: Span {
+                                lo: BytePos(
+                                    777,
+                                ),
+                                hi: BytePos(
+                                    807,
+                                ),
+                                ctxt: #0,
+                            },
+                            value: "module:mixy.ClassB#method} and",
+                        },
+                    },
+                ),
+            },
+        ],
+    },
+]

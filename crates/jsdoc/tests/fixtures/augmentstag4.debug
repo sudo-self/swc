@@ -1,0 +1,290 @@
+[
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                49,
+            ),
+            hi: BytePos(
+                49,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    49,
+                ),
+                hi: BytePos(
+                    49,
+                ),
+                ctxt: #0,
+            },
+            value: "",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        49,
+                    ),
+                    hi: BytePos(
+                        60,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            49,
+                        ),
+                        hi: BytePos(
+                            60,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "constructor",
+                },
+                tag: Class(
+                    ClassTag {
+                        span: Span {
+                            lo: BytePos(
+                                49,
+                            ),
+                            hi: BytePos(
+                                60,
+                            ),
+                            ctxt: #0,
+                        },
+                        ty: Some(
+                            Text {
+                                span: Span {
+                                    lo: BytePos(
+                                        49,
+                                    ),
+                                    hi: BytePos(
+                                        72,
+                                    ),
+                                    ctxt: #0,
+                                },
+                                value: "* @classdesc Base class",
+                            },
+                        ),
+                        name: None,
+                    },
+                ),
+            },
+        ],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                126,
+            ),
+            hi: BytePos(
+                126,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    126,
+                ),
+                hi: BytePos(
+                    132,
+                ),
+                ctxt: #0,
+            },
+            value: "member",
+        },
+        tags: [],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                169,
+            ),
+            hi: BytePos(
+                169,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    169,
+                ),
+                hi: BytePos(
+                    183,
+                ),
+                ctxt: #0,
+            },
+            value: "another member",
+        },
+        tags: [],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                218,
+            ),
+            hi: BytePos(
+                218,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    218,
+                ),
+                hi: BytePos(
+                    248,
+                ),
+                ctxt: #0,
+            },
+            value: "explicitly named member\n     *",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        218,
+                    ),
+                    hi: BytePos(
+                        226,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            218,
+                        ),
+                        hi: BytePos(
+                            226,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "function",
+                },
+                tag: Function(
+                    FunctionTag {
+                        span: Span {
+                            lo: BytePos(
+                                218,
+                            ),
+                            hi: BytePos(
+                                226,
+                            ),
+                            ctxt: #0,
+                        },
+                        name: Some(
+                            Text {
+                                span: Span {
+                                    lo: BytePos(
+                                        218,
+                                    ),
+                                    hi: BytePos(
+                                        228,
+                                    ),
+                                    ctxt: #0,
+                                },
+                                value: "Base#test3",
+                            },
+                        ),
+                    },
+                ),
+            },
+        ],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                325,
+            ),
+            hi: BytePos(
+                325,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    325,
+                ),
+                hi: BytePos(
+                    325,
+                ),
+                ctxt: #0,
+            },
+            value: "",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        325,
+                    ),
+                    hi: BytePos(
+                        336,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            325,
+                        ),
+                        hi: BytePos(
+                            336,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "constructor",
+                },
+                tag: Class(
+                    ClassTag {
+                        span: Span {
+                            lo: BytePos(
+                                325,
+                            ),
+                            hi: BytePos(
+                                336,
+                            ),
+                            ctxt: #0,
+                        },
+                        ty: Some(
+                            Text {
+                                span: Span {
+                                    lo: BytePos(
+                                        325,
+                                    ),
+                                    hi: BytePos(
+                                        340,
+                                    ),
+                                    ctxt: #0,
+                                },
+                                value: "* @extends Base",
+                            },
+                        ),
+                        name: Some(
+                            Text {
+                                span: Span {
+                                    lo: BytePos(
+                                        325,
+                                    ),
+                                    hi: BytePos(
+                                        355,
+                                    ),
+                                    ctxt: #0,
+                                },
+                                value: "* @classdesc Extension of Base",
+                            },
+                        ),
+                    },
+                ),
+            },
+        ],
+    },
+]

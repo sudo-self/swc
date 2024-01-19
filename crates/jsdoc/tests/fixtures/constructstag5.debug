@@ -1,0 +1,185 @@
+[
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                37,
+            ),
+            hi: BytePos(
+                37,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    37,
+                ),
+                hi: BytePos(
+                    37,
+                ),
+                ctxt: #0,
+            },
+            value: "",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        37,
+                    ),
+                    hi: BytePos(
+                        42,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            37,
+                        ),
+                        hi: BytePos(
+                            42,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "lends",
+                },
+                tag: Lends(
+                    LendsTag {
+                        span: Span {
+                            lo: BytePos(
+                                37,
+                            ),
+                            hi: BytePos(
+                                42,
+                            ),
+                            ctxt: #0,
+                        },
+                        name: NamePath {
+                            span: Span {
+                                lo: BytePos(
+                                    37,
+                                ),
+                                hi: BytePos(
+                                    38,
+                                ),
+                                ctxt: #0,
+                            },
+                            components: [
+                                Text {
+                                    span: Span {
+                                        lo: BytePos(
+                                            37,
+                                        ),
+                                        hi: BytePos(
+                                            41,
+                                        ),
+                                        ctxt: #0,
+                                    },
+                                    value: "Duck",
+                                },
+                            ],
+                        },
+                    },
+                ),
+            },
+        ],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                71,
+            ),
+            hi: BytePos(
+                71,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    71,
+                ),
+                hi: BytePos(
+                    89,
+                ),
+                ctxt: #0,
+            },
+            value: "Constructs a duck.",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        71,
+                    ),
+                    hi: BytePos(
+                        81,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            71,
+                        ),
+                        hi: BytePos(
+                            81,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "constructs",
+                },
+                tag: Constructs(
+                    ConstructsTag {
+                        span: Span {
+                            lo: BytePos(
+                                71,
+                            ),
+                            hi: BytePos(
+                                81,
+                            ),
+                            ctxt: #0,
+                        },
+                        name: Text {
+                            span: Span {
+                                lo: BytePos(
+                                    71,
+                                ),
+                                hi: BytePos(
+                                    81,
+                                ),
+                                ctxt: #0,
+                            },
+                            value: "@param tog",
+                        },
+                    },
+                ),
+            },
+        ],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                245,
+            ),
+            hi: BytePos(
+                245,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    245,
+                ),
+                hi: BytePos(
+                    255,
+                ),
+                ctxt: #0,
+            },
+            value: "Say hello.",
+        },
+        tags: [],
+    },
+]

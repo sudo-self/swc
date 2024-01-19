@@ -1,0 +1,345 @@
+[
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                27,
+            ),
+            hi: BytePos(
+                27,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    27,
+                ),
+                hi: BytePos(
+                    27,
+                ),
+                ctxt: #0,
+            },
+            value: "",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        27,
+                    ),
+                    hi: BytePos(
+                        32,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            27,
+                        ),
+                        hi: BytePos(
+                            32,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "lends",
+                },
+                tag: Lends(
+                    LendsTag {
+                        span: Span {
+                            lo: BytePos(
+                                27,
+                            ),
+                            hi: BytePos(
+                                32,
+                            ),
+                            ctxt: #0,
+                        },
+                        name: NamePath {
+                            span: Span {
+                                lo: BytePos(
+                                    27,
+                                ),
+                                hi: BytePos(
+                                    28,
+                                ),
+                                ctxt: #0,
+                            },
+                            components: [
+                                Text {
+                                    span: Span {
+                                        lo: BytePos(
+                                            27,
+                                        ),
+                                        hi: BytePos(
+                                            33,
+                                        ),
+                                        ctxt: #0,
+                                    },
+                                    value: "Person",
+                                },
+                            ],
+                        },
+                    },
+                ),
+            },
+        ],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                55,
+            ),
+            hi: BytePos(
+                55,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    55,
+                ),
+                hi: BytePos(
+                    80,
+                ),
+                ctxt: #0,
+            },
+            value: "Describe the constructor.",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        55,
+                    ),
+                    hi: BytePos(
+                        64,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            55,
+                        ),
+                        hi: BytePos(
+                            64,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "classdesc",
+                },
+                tag: ClassDesc(
+                    JSDocClassDescTag {
+                        span: Span {
+                            lo: BytePos(
+                                55,
+                            ),
+                            hi: BytePos(
+                                64,
+                            ),
+                            ctxt: #0,
+                        },
+                        desc: Text {
+                            span: Span {
+                                lo: BytePos(
+                                    55,
+                                ),
+                                hi: BytePos(
+                                    88,
+                                ),
+                                ctxt: #0,
+                            },
+                            value: "A class that represents a person.",
+                        },
+                    },
+                ),
+            },
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        55,
+                    ),
+                    hi: BytePos(
+                        65,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            55,
+                        ),
+                        hi: BytePos(
+                            65,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "constructs",
+                },
+                tag: Constructs(
+                    ConstructsTag {
+                        span: Span {
+                            lo: BytePos(
+                                55,
+                            ),
+                            hi: BytePos(
+                                65,
+                            ),
+                            ctxt: #0,
+                        },
+                        name: Text {
+                            span: Span {
+                                lo: BytePos(
+                                    55,
+                                ),
+                                hi: BytePos(
+                                    75,
+                                ),
+                                ctxt: #0,
+                            },
+                            value: "@param {string} name",
+                        },
+                    },
+                ),
+            },
+        ],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                245,
+            ),
+            hi: BytePos(
+                245,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    245,
+                ),
+                hi: BytePos(
+                    268,
+                ),
+                ctxt: #0,
+            },
+            value: "The name of the person.",
+        },
+        tags: [],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                314,
+            ),
+            hi: BytePos(
+                314,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    314,
+                ),
+                hi: BytePos(
+                    314,
+                ),
+                ctxt: #0,
+            },
+            value: "",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        314,
+                    ),
+                    hi: BytePos(
+                        319,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            314,
+                        ),
+                        hi: BytePos(
+                            319,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "param",
+                },
+                tag: Parameter(
+                    ParameterTag {
+                        span: Span {
+                            lo: BytePos(
+                                314,
+                            ),
+                            hi: BytePos(
+                                319,
+                            ),
+                            ctxt: #0,
+                        },
+                        name: None,
+                        ty: Some(
+                            Text {
+                                span: Span {
+                                    lo: BytePos(
+                                        314,
+                                    ),
+                                    hi: BytePos(
+                                        322,
+                                    ),
+                                    ctxt: #0,
+                                },
+                                value: "{string}",
+                            },
+                        ),
+                        desc: Text {
+                            span: Span {
+                                lo: BytePos(
+                                    314,
+                                ),
+                                hi: BytePos(
+                                    321,
+                                ),
+                                ctxt: #0,
+                            },
+                            value: "message",
+                        },
+                    },
+                ),
+            },
+        ],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                396,
+            ),
+            hi: BytePos(
+                396,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    396,
+                ),
+                hi: BytePos(
+                    417,
+                ),
+                ctxt: #0,
+            },
+            value: "The person's message.",
+        },
+        tags: [],
+    },
+]

@@ -1,0 +1,320 @@
+[
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                30,
+            ),
+            hi: BytePos(
+                30,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    30,
+                ),
+                hi: BytePos(
+                    70,
+                ),
+                ctxt: #0,
+            },
+            value: "Document your constructor function here.",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        30,
+                    ),
+                    hi: BytePos(
+                        40,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            30,
+                        ),
+                        hi: BytePos(
+                            40,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "constructs",
+                },
+                tag: Constructs(
+                    ConstructsTag {
+                        span: Span {
+                            lo: BytePos(
+                                30,
+                            ),
+                            hi: BytePos(
+                                40,
+                            ),
+                            ctxt: #0,
+                        },
+                        name: Text {
+                            span: Span {
+                                lo: BytePos(
+                                    30,
+                                ),
+                                hi: BytePos(
+                                    39,
+                                ),
+                                ctxt: #0,
+                            },
+                            value: "TextBlock",
+                        },
+                    },
+                ),
+            },
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        30,
+                    ),
+                    hi: BytePos(
+                        39,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            30,
+                        ),
+                        hi: BytePos(
+                            39,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "classdesc",
+                },
+                tag: ClassDesc(
+                    JSDocClassDescTag {
+                        span: Span {
+                            lo: BytePos(
+                                30,
+                            ),
+                            hi: BytePos(
+                                39,
+                            ),
+                            ctxt: #0,
+                        },
+                        desc: Text {
+                            span: Span {
+                                lo: BytePos(
+                                    30,
+                                ),
+                                hi: BytePos(
+                                    54,
+                                ),
+                                ctxt: #0,
+                            },
+                            value: "Describe your class here",
+                        },
+                    },
+                ),
+            },
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        30,
+                    ),
+                    hi: BytePos(
+                        35,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            30,
+                        ),
+                        hi: BytePos(
+                            35,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "param",
+                },
+                tag: Parameter(
+                    ParameterTag {
+                        span: Span {
+                            lo: BytePos(
+                                30,
+                            ),
+                            hi: BytePos(
+                                35,
+                            ),
+                            ctxt: #0,
+                        },
+                        name: None,
+                        ty: Some(
+                            Text {
+                                span: Span {
+                                    lo: BytePos(
+                                        30,
+                                    ),
+                                    hi: BytePos(
+                                        38,
+                                    ),
+                                    ctxt: #0,
+                                },
+                                value: "{object}",
+                            },
+                        ),
+                        desc: Text {
+                            span: Span {
+                                lo: BytePos(
+                                    30,
+                                ),
+                                hi: BytePos(
+                                    34,
+                                ),
+                                ctxt: #0,
+                            },
+                            value: "opts",
+                        },
+                    },
+                ),
+            },
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        30,
+                    ),
+                    hi: BytePos(
+                        36,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            30,
+                        ),
+                        hi: BytePos(
+                            36,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "throws",
+                },
+                tag: Throw(
+                    ThrowTag {
+                        span: Span {
+                            lo: BytePos(
+                                30,
+                            ),
+                            hi: BytePos(
+                                36,
+                            ),
+                            ctxt: #0,
+                        },
+                        text: Text {
+                            span: Span {
+                                lo: BytePos(
+                                    30,
+                                ),
+                                hi: BytePos(
+                                    41,
+                                ),
+                                ctxt: #0,
+                            },
+                            value: "MissingNode",
+                        },
+                    },
+                ),
+            },
+        ],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                272,
+            ),
+            hi: BytePos(
+                272,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    272,
+                ),
+                hi: BytePos(
+                    298,
+                ),
+                ctxt: #0,
+            },
+            value: "Document your method here.",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        272,
+                    ),
+                    hi: BytePos(
+                        280,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            272,
+                        ),
+                        hi: BytePos(
+                            280,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "memberof",
+                },
+                tag: MemberOf(
+                    MemberOfTag {
+                        span: Span {
+                            lo: BytePos(
+                                272,
+                            ),
+                            hi: BytePos(
+                                280,
+                            ),
+                            ctxt: #0,
+                        },
+                        parent_name_path: NamePath {
+                            span: Span {
+                                lo: BytePos(
+                                    272,
+                                ),
+                                hi: BytePos(
+                                    278,
+                                ),
+                                ctxt: #0,
+                            },
+                            components: [
+                                Text {
+                                    span: Span {
+                                        lo: BytePos(
+                                            272,
+                                        ),
+                                        hi: BytePos(
+                                            281,
+                                        ),
+                                        ctxt: #0,
+                                    },
+                                    value: "TextBlock",
+                                },
+                            ],
+                        },
+                    },
+                ),
+            },
+        ],
+    },
+]

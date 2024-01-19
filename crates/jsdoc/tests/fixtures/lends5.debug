@@ -1,0 +1,188 @@
+[
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                19,
+            ),
+            hi: BytePos(
+                19,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    19,
+                ),
+                hi: BytePos(
+                    19,
+                ),
+                ctxt: #0,
+            },
+            value: "",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        19,
+                    ),
+                    hi: BytePos(
+                        24,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            19,
+                        ),
+                        hi: BytePos(
+                            24,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "class",
+                },
+                tag: Class(
+                    ClassTag {
+                        span: Span {
+                            lo: BytePos(
+                                19,
+                            ),
+                            hi: BytePos(
+                                24,
+                            ),
+                            ctxt: #0,
+                        },
+                        ty: Some(
+                            Text {
+                                span: Span {
+                                    lo: BytePos(
+                                        19,
+                                    ),
+                                    hi: BytePos(
+                                        25,
+                                    ),
+                                    ctxt: #0,
+                                },
+                                value: "Person",
+                            },
+                        ),
+                        name: None,
+                    },
+                ),
+            },
+        ],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                125,
+            ),
+            hi: BytePos(
+                135,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    125,
+                ),
+                hi: BytePos(
+                    125,
+                ),
+                ctxt: #0,
+            },
+            value: "",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        125,
+                    ),
+                    hi: BytePos(
+                        130,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            125,
+                        ),
+                        hi: BytePos(
+                            130,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "lends",
+                },
+                tag: Lends(
+                    LendsTag {
+                        span: Span {
+                            lo: BytePos(
+                                125,
+                            ),
+                            hi: BytePos(
+                                130,
+                            ),
+                            ctxt: #0,
+                        },
+                        name: NamePath {
+                            span: Span {
+                                lo: BytePos(
+                                    125,
+                                ),
+                                hi: BytePos(
+                                    135,
+                                ),
+                                ctxt: #0,
+                            },
+                            components: [
+                                Text {
+                                    span: Span {
+                                        lo: BytePos(
+                                            125,
+                                        ),
+                                        hi: BytePos(
+                                            131,
+                                        ),
+                                        ctxt: #0,
+                                    },
+                                    value: "Person",
+                                },
+                            ],
+                        },
+                    },
+                ),
+            },
+        ],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                166,
+            ),
+            hi: BytePos(
+                166,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    166,
+                ),
+                hi: BytePos(
+                    182,
+                ),
+                ctxt: #0,
+            },
+            value: "Speak a message.",
+        },
+        tags: [],
+    },
+]

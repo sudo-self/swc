@@ -1,0 +1,44 @@
+[workspace]
+members = [
+  "xtask",
+  "crates/swc_core",
+  "crates/swc_cli_impl",
+  "crates/dbg-swc",
+  "crates/jsdoc",
+  "crates/binding_macros",
+  "crates/swc_css",
+  "crates/swc_css_lints",
+  "crates/swc_css_prefixer",
+  "crates/swc_ecmascript",
+  "crates/swc_ecma_lints",
+  "crates/swc_ecma_quote",
+  "crates/swc_estree_compat",
+  "crates/swc_html",
+  "crates/swc_plugin",
+  "crates/swc_plugin_macro",
+  "crates/swc_plugin_runner",
+  "crates/swc_plugin_testing",
+  "crates/swc_plugin_proxy",
+  "crates/swc_timer",
+  "crates/swc_xml",
+]
+resolver = "2"
+[profile.release]
+# lto = true
+
+# We use CARGO_PROFILE_RELEASE_LTO for production builds
+# lto = "fat"
+
+# debug = true
+# opt-level = 'z'
+
+[profile.bench]
+debug = true
+# lto = true
+
+# Optimize for iteration
+[profile.dev.build-override]
+opt-level = 3
+
+[profile.dev.package."*"]
+opt-level = 3

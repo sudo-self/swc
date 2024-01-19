@@ -1,0 +1,228 @@
+[
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                0,
+            ),
+            hi: BytePos(
+                1,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    1,
+                ),
+                hi: BytePos(
+                    1,
+                ),
+                ctxt: #0,
+            },
+            value: "",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        1,
+                    ),
+                    hi: BytePos(
+                        10,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            1,
+                        ),
+                        hi: BytePos(
+                            10,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "namespace",
+                },
+                tag: Namespace(
+                    NamespaceTag {
+                        span: Span {
+                            lo: BytePos(
+                                1,
+                            ),
+                            hi: BytePos(
+                                10,
+                            ),
+                            ctxt: #0,
+                        },
+                        ty: None,
+                        name: None,
+                    },
+                ),
+            },
+        ],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                36,
+            ),
+            hi: BytePos(
+                36,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    36,
+                ),
+                hi: BytePos(
+                    36,
+                ),
+                ctxt: #0,
+            },
+            value: "",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        36,
+                    ),
+                    hi: BytePos(
+                        45,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            36,
+                        ),
+                        hi: BytePos(
+                            45,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "namespace",
+                },
+                tag: Namespace(
+                    NamespaceTag {
+                        span: Span {
+                            lo: BytePos(
+                                36,
+                            ),
+                            hi: BytePos(
+                                45,
+                            ),
+                            ctxt: #0,
+                        },
+                        ty: None,
+                        name: Some(
+                            Text {
+                                span: Span {
+                                    lo: BytePos(
+                                        36,
+                                    ),
+                                    hi: BytePos(
+                                        46,
+                                    ),
+                                    ctxt: #0,
+                                },
+                                value: "@alias A.F",
+                            },
+                        ),
+                    },
+                ),
+            },
+        ],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                105,
+            ),
+            hi: BytePos(
+                105,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    105,
+                ),
+                hi: BytePos(
+                    105,
+                ),
+                ctxt: #0,
+            },
+            value: "",
+        },
+        tags: [
+            TagItem {
+                span: Span {
+                    lo: BytePos(
+                        105,
+                    ),
+                    hi: BytePos(
+                        111,
+                    ),
+                    ctxt: #0,
+                },
+                tag_name: Text {
+                    span: Span {
+                        lo: BytePos(
+                            105,
+                        ),
+                        hi: BytePos(
+                            111,
+                        ),
+                        ctxt: #0,
+                    },
+                    value: "return",
+                },
+                tag: Return(
+                    ReturnTag {
+                        span: Span {
+                            lo: BytePos(
+                                105,
+                            ),
+                            hi: BytePos(
+                                111,
+                            ),
+                            ctxt: #0,
+                        },
+                        ty: Some(
+                            Text {
+                                span: Span {
+                                    lo: BytePos(
+                                        105,
+                                    ),
+                                    hi: BytePos(
+                                        113,
+                                    ),
+                                    ctxt: #0,
+                                },
+                                value: "{String}",
+                            },
+                        ),
+                        description: Text {
+                            span: Span {
+                                lo: BytePos(
+                                    105,
+                                ),
+                                hi: BytePos(
+                                    105,
+                                ),
+                                ctxt: #0,
+                            },
+                            value: "",
+                        },
+                    },
+                ),
+            },
+        ],
+    },
+]

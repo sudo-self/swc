@@ -1,0 +1,26 @@
+SingleThreadedComments {
+    leading: RefCell {
+        value: {
+            BytePos(
+                2,
+            ): [
+                Comment {
+                    kind: Line,
+                    span: Span {
+                        lo: BytePos(
+                            2,
+                        ),
+                        hi: BytePos(
+                            9,
+                        ),
+                        ctxt: #0,
+                    },
+                    text: "/ ref",
+                },
+            ],
+        },
+    },
+    trailing: RefCell {
+        value: {},
+    },
+}

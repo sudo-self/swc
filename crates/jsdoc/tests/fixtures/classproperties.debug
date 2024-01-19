@@ -1,0 +1,98 @@
+[
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                1,
+            ),
+            hi: BytePos(
+                1,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    1,
+                ),
+                hi: BytePos(
+                    14,
+                ),
+                ctxt: #0,
+            },
+            value: "Sample class.",
+        },
+        tags: [],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                36,
+            ),
+            hi: BytePos(
+                36,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    36,
+                ),
+                hi: BytePos(
+                    52,
+                ),
+                ctxt: #0,
+            },
+            value: "Public property.",
+        },
+        tags: [],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                76,
+            ),
+            hi: BytePos(
+                76,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    76,
+                ),
+                hi: BytePos(
+                    93,
+                ),
+                ctxt: #0,
+            },
+            value: "Private property.",
+        },
+        tags: [],
+    },
+    JsDoc {
+        span: Span {
+            lo: BytePos(
+                118,
+            ),
+            hi: BytePos(
+                118,
+            ),
+            ctxt: #0,
+        },
+        description: Text {
+            span: Span {
+                lo: BytePos(
+                    118,
+                ),
+                hi: BytePos(
+                    156,
+                ),
+                ctxt: #0,
+            },
+            value: "Property with no value assigned to it.",
+        },
+        tags: [],
+    },
+]
